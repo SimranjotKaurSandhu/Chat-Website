@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Chat</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="person-selector">
+        <button class="button person-selector-button active-person" id="simran-selector">Simran</button>
+        <button class="button person-selector-button" id="harry-selector">Harry</button>
+    </div>
+    <div class="chat-container">
+        <h2 class="chat-header">Simran's texting.....</h2>
+
+        <div class="chat-messages">
+            <div class="message blue-bg">
+                <div class="message-sender">Simran</div>
+                <div class="message-text">Hey Harry , how are you?</div>
+                <div class="message-timestamp">11:11 PM</div>
+            </div>
+            <div class="message gray-bg">
+                <div class="message-sender">Harry</div>
+                <div class="message-text">I'm great, how you doin'?</div>
+                <div class="message-timestamp">11:11 PM</div>
+            </div>
+        </div>
+        <form action="" class="chat-input-form">
+            <input type="text" class="chat-input" required placeholder="Start typing..." />
+            <button class="button send-button" type="submit">Send</button>
+        </form>
+        <button class="button clear-chat-button">Clear Chat</button>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
